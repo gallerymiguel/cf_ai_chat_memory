@@ -54,7 +54,7 @@ worker/     → Cloudflare Worker API + Durable Object
 
 ---
 
-## 📸 Screenshots   ← ADD THIS SECTION HERE
+## 📸 Screenshots
 
 ### 🖼 Main Chat UI  
 ![Chat UI](./screenshots/chat-ui.png)
