@@ -1,0 +1,25 @@
+{
+  "name": "cf-ai-chat-worker",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-01-01",
+
+  "ai": {
+    "binding": "AI"
+  },
+
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "CHAT_DO",
+        "class_name": "ChatSession"
+      }
+    ]
+  },
+
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["ChatSession"]
+    }
+  ]
+}
