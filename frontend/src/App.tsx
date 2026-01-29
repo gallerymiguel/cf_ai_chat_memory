@@ -75,7 +75,7 @@ export default function App() {
 
   return (
     <div style={{ maxWidth: 720, margin: "0 auto", padding: 16 }}>
-      <h1 style={{ marginBottom: 12 }}>Cloudflare AI Chat (MVP)</h1>
+      <h1 style={{ marginBottom: 12 }}>Cloudflare Memory Chat</h1>
 
       <div
         style={{
@@ -97,7 +97,7 @@ export default function App() {
               maxWidth: "85%",
               padding: "10px 12px",
               borderRadius: 12,
-              background: m.role === "user" ? "#e8f0fe" : "#f5f5f5",
+              background: m.role === "user" ? "#005eff" : "#1f1f1f",
               whiteSpace: "pre-wrap",
             }}
           >
